@@ -17,6 +17,7 @@ class Engine
 
     public function engineWorks($distance)
     {
+
         for ($i = 0; $i <= $distance; $i=$i+10) {
             echo 'Проехали метров '. $i . PHP_EOL;
             $this->temperature += 5;
