@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+
 class TransmissionManual extends Transmission
 {
     public function moveForward($speed)

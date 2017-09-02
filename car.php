@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+
 class Car
 {
     protected $name;
@@ -25,8 +26,6 @@ class Car
         echo '' . $this->engine->engineOn();
         echo '<br>';
         $this->transmission($direction, $speed);
-        //тут надо что то вернуть?
-
         echo $this->engine->engineWorks($distance) . PHP_EOL; //двигатель работаем - при необходимости охлаждается
         echo '' . $this->engine->engineOff();
         echo '<br>';

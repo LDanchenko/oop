@@ -1,10 +1,9 @@
 <?php
 
 namespace App;
+
 class Transmission
 {
-
-
 
     public function moveForward($speed)
     {
